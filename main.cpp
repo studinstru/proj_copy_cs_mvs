@@ -4,7 +4,7 @@
  *  Created on: Jul 17, 2023
  *      Author: ambatwar
  */
-#if 1
+#if 0
 #include <stdio.h>>
 
 unsigned int mvs[20];
@@ -1324,6 +1324,8 @@ typedef struct {
 } cmb;
 
 int main() {
+
+    printf("Anonomous structure inside union example\n");
     // Get the size of cmb
     size_t sizeOfCmb = sizeof(cmb);
 
